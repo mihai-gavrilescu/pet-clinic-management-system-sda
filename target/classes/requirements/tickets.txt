@@ -2,11 +2,11 @@ DONE! - PCMS-13: Create database diagram.
 
 DONE! - PCMS-14: Add Hibernate configuration (pom and utils).
 
-PCMS-15: Add Hibernate model.
+DONE! - PCMS-15: Add Hibernate model.
 
-PCMS-16: Add generic repositories.
+DONE! - PCMS-16: Add generic repositories.
 
-PCMS-17: Create user menu.
+DONE! - PCMS-17: Create user menu.
 
 PCMS-1:
 As a user, I should be able to add a new veterinarian in the system by providing the veterinarian's first name,
