@@ -1,9 +1,10 @@
 package com.sda.mihai.petclinicmanagement.utils;
 
+import com.sda.mihai.petclinicmanagement.model.Consult;
+import com.sda.mihai.petclinicmanagement.model.Pet;
+import com.sda.mihai.petclinicmanagement.model.Veterinarian;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import java.awt.print.Book;
 
 public class SessionManager extends AbstractSessionManager {
 
@@ -23,5 +24,9 @@ public class SessionManager extends AbstractSessionManager {
     @Override
     protected void setAnnotatedClasses(Configuration configuration) {
         // Hibernate Model will be added here
+
+        configuration.addAnnotatedClass(Veterinarian.class);
+        configuration.addAnnotatedClass(Pet.class);
+        configuration.addAnnotatedClass(Consult.class);
     }
 }

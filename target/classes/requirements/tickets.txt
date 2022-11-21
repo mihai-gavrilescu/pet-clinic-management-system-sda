@@ -2,7 +2,7 @@ DONE! - PCMS-13: Create database diagram.
 
 DONE! - PCMS-14: Add Hibernate configuration (pom and utils).
 
-DONE! - PCMS-15: Add Hibernate model.
+PCMS-15: Add Hibernate model.
 
 PCMS-16: Add generic repositories.
 
