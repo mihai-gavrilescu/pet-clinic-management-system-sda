@@ -1,4 +1,4 @@
-PCMS-13: Create database diagram.
+DONE! - PCMS-13: Create database diagram.
 
 PCMS-14: Add Hibernate configuration (pom and utils).
 
